@@ -70,14 +70,14 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 ```
 history = model.fit(train_ds, validation_data=val_ds, epochs=10)
 ```
-# 결과 시각화
+## 결과 시각화
+```
 import matplotlib.pyplot as plt
 plt.plot(history.history['accuracy'], label='train acc')
 plt.plot(history.history['val_accuracy'], label='val acc')
 plt.legend(); plt.show()
-
-## 결과 예시
-- Training & Validation Accuracy / Loss
+```
+- 결과 예시 : Training & Validation Accuracy / Loss
 <p align="center">
   <img src="result.png" alt="Training and Validation Curves" width="600"/>
 </p>

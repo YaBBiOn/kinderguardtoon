@@ -79,7 +79,7 @@ plt.legend(); plt.show()
 ## 결과 예시
 - Training & Validation Accuracy / Loss
 <p align="center">
-  <img src="6f8f5d20-3aa5-4759-80ec-efa00eb88e22.png" alt="Training and Validation Accuracy & Loss" width="600"/>
+  <img src="result.png" alt="Training and Validation Curves" width="600"/>
 </p>
 
 
